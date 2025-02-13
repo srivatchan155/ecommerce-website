@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My E-Commerce Store</h1>
+        <div id="cart">
+            🛒 Cart: <span id="cart-count">0</span> items 
+            | Total: ₹<span id="cart-total">0</span>
+            <a href="cart.html"><button>Go to Cart</button></a>
+        </div>
+    </header>
+
+    <main>
+        <div id="products">
+            <div class="product">
+                <h2>Shirt</h2>
+                <img src="shirt.jpg" alt="Shirt">
+                <p>Price: ₹500</p>
+                <a href="shirt.html"><button>View Product</button></a>
+            </div>
+
+            <div class="product">
+                <h2>Pant</h2>
+                <img src="jeans.jpg" alt="Pant">
+                <p>Price: ₹800</p>
+                <a href="pant.html"><button>View Product</button></a>
+            </div>
+
+            <div class="product">
+                <h2>Jacket</h2>
+                <img src="jacket.jpg" alt="Jacket">
+                <p>Price: ₹1200</p>
+                <a href="jacket.html"><button>View Product</button></a>
+            </div>
+        </div>
+    </main>
+
+    <script src="cart.js"></script>
+</body>
+</html>

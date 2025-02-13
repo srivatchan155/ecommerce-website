@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirt - My Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Shirt</h1>
+        <div id="cart">
+            🛒 Cart: <span id="cart-count">0</span> items 
+            | Total: ₹<span id="cart-total">0</span>
+            <a href="cart.html"><button>Go to Cart</button></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="product">
+            <img src="shirt.jpg" alt="Shirt">
+            <p>Price: ₹500</p>
+            <button onclick="addToCart('Shirt', 500)">Add to Cart</button>
+        </div>
+    </main>
+
+    <script src="cart.js"></script>
+</body>
+</html>
